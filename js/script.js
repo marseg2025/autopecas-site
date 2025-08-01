@@ -100,7 +100,7 @@ function trackClick(categoria) {
     // Exemplo de como redirecionar para links de afiliados
     const affiliateLinks = {
         'lampadas': 'https://amzn.to/lampadas-led-automotivas',
-        'fusiveis': 'https://shopee.com.br/Conjunto-De-Sortimento-De-Fus%C3%ADveis-De-Carro-100-Pe%C3%A7as-Tamanho-M%C3%A9dio-Tipo-L%C3%A2mina-Fus%C3%ADvel-Caminh%C3%A3o-2-35A-Com-i.230709939.25865197434',
+        'fusiveis': 'https://shopee.com.br',
         'lentes': 'https://amzn.to/lentes-farol-carro',
         'botoes': 'https://amzn.to/botoes-vidro-eletrico'
     };
