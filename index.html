@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <base href="/autopecas-site/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoPeças Brasil - Lâmpadas, Fusíveis e Peças de Reposição</title>
+    <meta name="description" content="Encontre as melhores autopeças para seu carro ou caminhão. Lâmpadas LED, fusíveis, lentes e botões de vidro elétrico com os melhores preços.">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="images/logo.png" alt="AutoPeças Brasil" class="logo">
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#categorias" class="nav-link">Categorias</a></li>
+                    <li><a href="#guias" class="nav-link">Guias</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Encontre as <span class="highlight">Melhores Autopeças</span><br>
+                    para seu Veículo
+                </h1>
+                <p class="hero-description">
+                    Lâmpadas LED, fusíveis, lentes e botões de vidro elétrico. 
+                    Peças de qualidade com os melhores preços e entrega rápida.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#categorias" class="btn btn-primary">Ver Produtos</a>
+                    <a href="#guias" class="btn btn-secondary">Guias de Instalação</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/carros-populares.jpeg" alt="Carros populares brasileiros">
+            </div>
+        </div>
+    </section>
+
+    <!-- Categorias -->
+    <section id="categorias" class="categorias">
+        <div class="container">
+            <h2 class="section-title">Principais Categorias</h2>
+            <p class="section-subtitle">Peças essenciais para manutenção do seu veículo</p>
+            
+            <div class="categorias-grid">
+                <div class="categoria-card">
+                    <div class="card-image">
+                        <img src="images/lampada-led.png" alt="Lâmpadas LED Automotivas">
+                    </div>
+                    <div class="card-content">
+                        <h3>Lâmpadas LED</h3>
+                        <p>Lâmpadas automotivas de alta qualidade, maior durabilidade e economia de energia.</p>
+                        <ul class="features">
+                            <li>✓ Tecnologia LED avançada</li>
+                            <li>✓ Maior vida útil</li>
+                            <li>✓ Luz mais branca e potente</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline" onclick="trackClick('lampadas')">Ver Lâmpadas</a>
+                    </div>
+                </div>
+
+                <div class="categoria-card">
+                    <div class="card-image">
+                        <img src="images/fusiveis-kit.jpg" alt="Fusíveis Automotivos">
+                    </div>
+                    <div class="card-content">
+                        <h3>Fusíveis</h3>
+                        <p>Kits completos de fusíveis para proteção elétrica do seu veículo.</p>
+                        <ul class="features">
+                            <li>✓ Várias amperagens</li>
+                            <li>✓ Compatibilidade universal</li>
+                            <li>✓ Kit de emergência</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline" onclick="trackClick('fusiveis')">Ver Fusíveis</a>
+                    </div>
+                </div>
+
+                <div class="categoria-card">
+                    <div class="card-image">
+                        <img src="images/lente-farol.png" alt="Lentes de Farol">
+                    </div>
+                    <div class="card-content">
+                        <h3>Lentes e Iluminação</h3>
+                        <p>Lentes de farol e componentes de iluminação para diversos modelos.</p>
+                        <ul class="features">
+                            <li>✓ Material resistente</li>
+                            <li>✓ Encaixe perfeito</li>
+                            <li>✓ Transparência original</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline" onclick="trackClick('lentes')">Ver Lentes</a>
+                    </div>
+                </div>
+
+                <div class="categoria-card">
+                    <div class="card-image">
+                        <img src="images/botao-vidro.jpg" alt="Botões de Vidro Elétrico">
+                    </div>
+                    <div class="card-content">
+                        <h3>Botões e Comandos</h3>
+                        <p>Interruptores e botões de vidro elétrico para carros e caminhões.</p>
+                        <ul class="features">
+                            <li>✓ Compatibilidade ampla</li>
+                            <li>✓ Instalação simples</li>
+                            <li>✓ Durabilidade garantida</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline" onclick="trackClick('botoes')">Ver Botões</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vantagens -->
+    <section class="vantagens">
+        <div class="container">
+            <h2 class="section-title">Por que Escolher Nossas Indicações?</h2>
+            <div class="vantagens-grid">
+                <div class="vantagem-item">
+                    <div class="vantagem-icon">
+                        <img src="images/icon-quality.png" alt="Qualidade">
+                    </div>
+                    <h3>Qualidade Garantida</h3>
+                    <p>Selecionamos apenas produtos de marcas confiáveis e com boa avaliação dos clientes.</p>
+                </div>
+                <div class="vantagem-item">
+                    <div class="vantagem-icon">💰</div>
+                    <h3>Melhores Preços</h3>
+                    <p>Comparamos preços em diferentes plataformas para encontrar as melhores ofertas.</p>
+                </div>
+                <div class="vantagem-item">
+                    <div class="vantagem-icon">🚚</div>
+                    <h3>Entrega Rápida</h3>
+                    <p>Parceria com Amazon e Shopee garante entrega rápida e segura em todo o Brasil.</p>
+                </div>
+                <div class="vantagem-item">
+                    <div class="vantagem-icon">📚</div>
+                    <h3>Guias Completos</h3>
+                    <p>Tutoriais passo a passo para instalação e manutenção das peças.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guias -->
+    <section id="guias" class="guias">
+        <div class="container">
+            <h2 class="section-title">Guias de Instalação</h2>
+            <p class="section-subtitle">Aprenda a instalar e trocar peças do seu veículo</p>
+            
+            <div class="guias-grid">
+                <article class="guia-card">
+                    <h3>Como Trocar Lâmpadas do Farol</h3>
+                    <p>Guia completo para substituir lâmpadas queimadas do farol principal, com dicas de segurança.</p>
+                    <a href="pages/guia-lampadas.html" class="guia-link">Ler Guia →</a>
+                </article>
+                
+                <article class="guia-card">
+                    <h3>Identificando Fusíveis Queimados</h3>
+                    <p>Como identificar e substituir fusíveis automotivos de forma rápida e segura.</p>
+                    <a href="pages/guia-fusiveis.html" class="guia-link">Ler Guia →</a>
+                </article>
+                
+                <article class="guia-card">
+                    <h3>Instalação de Botões de Vidro</h3>
+                    <p>Passo a passo para trocar interruptores de vidro elétrico com defeito.</p>
+                    <a href="pages/guia-botoes.html" class="guia-link">Ler Guia →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Encontre a Peça Ideal para seu Veículo</h2>
+                <p>Não perca tempo procurando. Nossas indicações são baseadas em qualidade, preço e compatibilidade.</p>
+                <a href="#categorias" class="btn btn-primary btn-large">Explorar Produtos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contato" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AutoPeças Brasil</h3>
+                    <p>Sua referência em autopeças de qualidade. Encontre as melhores peças para seu veículo com os melhores preços do mercado.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Categorias</h4>
+                    <ul>
+                        <li><a href="#categorias">Lâmpadas LED</a></li>
+                        <li><a href="#categorias">Fusíveis</a></li>
+                        <li><a href="#categorias">Lentes</a></li>
+                        <li><a href="#categorias">Botões</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Guias</h4>
+                    <ul>
+                        <li><a href="pages/guia-lampadas.html">Trocar Lâmpadas</a></li>
+                        <li><a href="pages/guia-fusiveis.html">Fusíveis</a></li>
+                        <li><a href="pages/guia-botoes.html">Botões de Vidro</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Sobre</h4>
+                    <ul>
+                        <li><a href="#sobre">Quem Somos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="pages/privacidade.html">Privacidade</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AutoPeças Brasil. Todos os direitos reservados.</p>
+                <p class="disclaimer">Este site contém links de afiliados. Podemos receber comissão por compras realizadas através destes links.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
