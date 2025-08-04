@@ -99,7 +99,7 @@ function trackClick(categoria) {
     
     // Exemplo de como redirecionar para links de afiliados
     const affiliateLinks = {
-        'lampadas': 'https://shopee.com.br/Conjunto-De-Sortimento-De-Fus%C3%ADveis-De-Carro-100-Pe%C3%A7as-Tamanho-M%C3%A9dio-Tipo-L%C3%A2mina-Fus%C3%ADvel-Caminh%C3%A3o-2-35A-Com-i.1006215031.29269025321?sp_atk=6400b5e2-b483-4b92-b7ad-fe3082bf326d&xptdk=6400b5e2-b483-4b92-b7ad-fe3082bf326d',
+        'lampadas': 'https://shopee.com.br',
         'fusiveis': 'https://amzn.to/fusiveis-automotivos',
         'lentes': 'https://amzn.to/lentes-farol-carro',
         'botoes': 'https://amzn.to/botoes-vidro-eletrico'
